@@ -1,0 +1,10 @@
+.nav__list {
+    background-color: cyan;
+    padding: 20px 40px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+
+}
