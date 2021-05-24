@@ -3,7 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
-    /* margin-top: 2px; */
+    margin-bottom: 15px;
+    margin-top: 30px;
+    z-index: 1;
 }
 
 .screen-header__title {
@@ -11,6 +13,28 @@
     font-weight: 600;
 }
 
+.screen-header__icons{
+    position: relative;
+}
+
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+@keyframes rotateCog {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: rotateZ(360deg) scale(1.2);
+
+    }
+    100%{
+        transform: scale(1.2);
+    }
+  }
+  
+  .screen-header__icons .fa-cog:hover {
+    animation: rotateCog 2s linear infinite;
+
+  }

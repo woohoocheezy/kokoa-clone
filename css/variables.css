@@ -2,6 +2,8 @@
     --main-color: #c8dbd9;
     --background-color: #4a7c59;
     --notification: #8fc0a9;
-    --horizontal-space: 25px
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --gery-color: rgba(0, 0, 0, 0.5);
 }
 

@@ -1,0 +1,24 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+}
+
+.icon-row__icon span {
+    margin-top: 18px;
+}
+
+.more-screen .icon-row__icon:hover,
+.more-suggestions .more-suggestions__icon-image:hover {
+    transform: scale(2);
+}
