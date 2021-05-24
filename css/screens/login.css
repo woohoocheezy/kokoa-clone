@@ -30,7 +30,7 @@
     border: none;
     font-size: 18px;
     margin-bottom: 25px;
-    background-color: #DB901C;
+    background-color: var(--main-color);
     border-radius: 15px;
 }
 
@@ -39,18 +39,18 @@
 }
 
 #login-form input:not([type="submit"]){
-    border-bottom: 3px solid #E8E163;
+    border-bottom: 3px solid  #68b0ab;
     transition: border-color 0.3s ease-in-out;
     padding-left: 10px;
 }
 
 #login-form input:focus { 
-    border-color: var(--main-color);
+    border-color: #faf3dd; 
     /* border-color: tomato; */
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--main-color);
+    background-color: #68b0ab;
     cursor: pointer;
     padding: 20px 0px ;
 }
