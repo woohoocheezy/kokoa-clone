@@ -110,3 +110,7 @@
 .nav__btn:last-child {
     animation-delay: 0.9s;
 }
+
+.nav {
+    z-index: 99;
+}
